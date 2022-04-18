@@ -9,7 +9,7 @@ import { darkTheme } from './themes/dark';
 import { createTheme } from '@mui/material/styles';
 
 function App() {
-    const [mode, setMode] = useState<TMode>('dark');
+    const [mode, setMode] = useState<TMode>('light');
 
     const theme = useMemo(() => createTheme(mode === 'light' ? lightTheme : darkTheme), [mode]);
 
