@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import { useForm } from 'react-hook-form';
 import { joiResolver } from '@hookform/resolvers/joi';
 import { loginSchema } from '../../validations';
-import { ILogin } from '../../interfaces/i-home';
+import { ILogin } from '../../models';
 import { Box } from '@mui/material';
 
 export default function SignIn() {
